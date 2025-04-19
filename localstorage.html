@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Local Storage Access</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="container">
+      <legend>Insert Data</legend>
+      <div class="inputs">
+        <input id="keyInput" type="text" placeholder="Enter Key..." />
+        <input id="valueInput" type="text" placeholder="Enter Value..." />
+        <button onclick="insertData()">Insert</button>
+        <button onclick="clearData()">Clear All</button>
+      </div>
+
+      <div class="output">
+        <h3>Stored Data:</h3>
+        <ul id="dataList"></ul>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
